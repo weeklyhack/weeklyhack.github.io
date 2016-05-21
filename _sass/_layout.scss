@@ -346,8 +346,24 @@ span.arrow {
     margin-bottom: 30px;
 }
 .about img {
-    width: 12.5%;
-    float: left !important;
     margin-right: 30px;
     border-radius: 3px;
+    float: left !important;
+    width: 12.5%;
+    min-width: 200px;
+
+    @include media-query($on-laptop) {
+      width: 50%;
+      margin-left: 25%;
+      margin-bottom: 30px;
+    }
+}
+.about h2 {
+    margin-bottom: 5px;
+}
+
+.about h2, .about p {
+    @include media-query($on-laptop) {
+        float: left;
+    }
 }
