@@ -11,11 +11,14 @@ github_username:  1egoman
 # Build settings
 markdown: kramdown
 permalink: ":title/"
-highlighter: pygments
+highlighter: rouge
 
 # Pagination
 paginate: 10
 paginate_path: "blog/page/:num/"
+
+# Required gems
+gems: [jekyll-paginate]
 
 # Minification
 sass:

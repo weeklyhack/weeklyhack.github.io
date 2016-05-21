@@ -2,6 +2,11 @@
  * Site header
  */
 
+.post {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .header-intro {
     font-size: 18px;
     color: #aaa;
@@ -239,8 +244,37 @@ Post List
     letter-spacing: -1px;
     line-height: 1;
 
+    small {
+      font-size: 50%;
+      margin-right: 10px;
+      color: $grey-color;
+      width: 100%;
+      display: block;
+      margin-bottom: 14px;
+      font-weight: lighter;
+    }
+
     @include media-query($on-laptop) {
         font-size: 36px;
+    }
+}
+
+.github-link {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url(/assets/images/github-logo.svg);
+    background-size: 60px;
+    float: right;
+    transition: all 0.15s ease;
+    @include media-query($on-laptop) {
+      width: 50px;
+      height: 50px;
+      background-size: 50px;
+    }
+
+    &:hover {
+      background-image: url(/assets/images/github-logo-hover.svg);
     }
 }
 
@@ -305,4 +339,15 @@ span.arrow {
     position: relative;
     top: 0;
     font-size: 17px;
+}
+
+// About section
+.about {
+    margin-bottom: 30px;
+}
+.about img {
+    width: 12.5%;
+    float: left !important;
+    margin-right: 30px;
+    border-radius: 3px;
 }
