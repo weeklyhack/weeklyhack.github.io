@@ -26,6 +26,10 @@
   border-top: 8px solid $brand-color;
   padding-top: 32px;
 }
+.share-container {
+  height: 32px;
+  margin-bottom: 10px;
+}
 
 // Header hiding
 @mixin transition($transition-property, $transition-time, $method) {

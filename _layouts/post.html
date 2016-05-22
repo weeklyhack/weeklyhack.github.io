@@ -17,18 +17,20 @@ layout: default
     </p>
   </header>
 
-  <!-- Share on Twitter -->
-  <a class="twitter-share-button" href="https://twitter.com/share"
-  data-related="twitterdev"
-  data-size="large"
-  data-count="horizontal">
-  Tweet
-  </a>
+  <div class="share-container">
+    <!-- Share on Twitter -->
+    <a class="twitter-share-button" href="https://twitter.com/share"
+    data-related="twitterdev"
+    data-size="large"
+    data-count="horizontal">
+    Tweet
+    </a>
 
-  <!-- Star the project on Github -->
-  {% if page.github %}
-  <a class="github-button" href="https://github.com/{{page.github}}" data-icon="octicon-star" data-style="mega" data-count-href="/{{page.github}}/stargazers" data-count-api="/repos/{{page.github}}#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star {{page.github}} on GitHub">Star</a>
-  {% endif %}
+    <!-- Star the project on Github -->
+    {% if page.github %}
+    <a class="github-button" href="https://github.com/{{page.github}}" data-icon="octicon-star" data-style="mega" data-count-href="/{{page.github}}/stargazers" data-count-api="/repos/{{page.github}}#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star {{page.github}} on GitHub">Star</a>
+    {% endif %}
+  </div>
 
   <article class="post-content">
     {{ content }}
