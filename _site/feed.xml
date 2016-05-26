@@ -6,9 +6,70 @@
 </description>
     <link>weeklyhack.github.io/</link>
     <atom:link href="weeklyhack.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 May 2016 21:14:44 -0400</pubDate>
-    <lastBuildDate>Sat, 21 May 2016 21:14:44 -0400</lastBuildDate>
+    <pubDate>Thu, 26 May 2016 18:03:28 -0400</pubDate>
+    <lastBuildDate>Thu, 26 May 2016 18:03:28 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>PH, a tool for making git push more efficient</title>
+        <description>&lt;p&gt;For my second project, I wanted to get closer to my original goal - to learn a
+new language every week. Therefore, this week, I took a look at a language I’ve
+heard a lot of good and bad about: Go.&lt;/p&gt;
+
+&lt;p&gt;Go at first looked like javascript and python had a baby with C. The fact that Go
+is a compiled language–a rarity these days–intrigued me. I had never really
+used one extensively before for a project and this felt like the perfect excuse
+to try.&lt;/p&gt;
+
+&lt;p&gt;After a week, I can say that Go has its quirks.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-what-did-i-write&quot;&gt;So, what did I write?&lt;/h3&gt;
+
+&lt;p&gt;Every day, I push code with git at least 50 times. Usually, I run something
+like &lt;code&gt;git push origin master&lt;/code&gt;, a full 22 characters. There had to be a more
+efficient way to push code. Am I lazy? Maybe. But, efficiency matters.
+I tried some fancy shell aliases, and while they
+were ok they never really worked quite right for my needs. I figured this
+would be a perfect opportunity to write a solution.&lt;/p&gt;
+
+&lt;p&gt;Enter PH.&lt;/p&gt;
+
+&lt;p&gt;PH is an app that makes git push easier. Remember &lt;code&gt;git push origin master&lt;/code&gt;?
+Instead, do &lt;code&gt;ph om&lt;/code&gt;. A full 18 characters shorter. Need to do something a little
+more complex, like &lt;code&gt;git pull origin branch -v&lt;/code&gt;? Simple, just do &lt;code&gt;ph
+lobv&lt;/code&gt;. Enough with my convoluted examples, here’s it in action:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/ph.gif&quot; alt=&quot;PH in action&quot; /&gt;&lt;/p&gt;
+
+&lt;!--
+### Still unconvinced?
+
+PH can also analyze the git pushes that you make to tell you how to make them
+better. Just run `ph inject`. PH will add a shell snippet to your shell&#39;s
+profile to analyze your git pushes and pulls. Then, after a while, run `ph
+report`. PH will tell you how you could have optimized all of your shell
+commands to minimize typing. --&gt;
+
+&lt;h2 id=&quot;how-can-you-use-it&quot;&gt;How can you use it?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/weekyhack/1-ph/blob/master/README.md&quot;&gt;Installation instructions are in the README.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-i-do&quot;&gt;How did I do?&lt;/h3&gt;
+&lt;p&gt;I was able to gain nearly 80% test coverage, but the only thing keeping me from
+100% was that I couldn’t find a mocking library for Go that worked for me and
+was intuitive.&lt;/p&gt;
+
+&lt;p&gt;Go gets a lot of things right. Pointers are done sensibly. Types are easy to understand when reading the code and have helped reduce errors as I work. Therefore, will I be using Go everyday from now on? Yes and no. Once Go has an official package manager and has matured as a platform, then I can see myself really getting into it.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 May 2016 12:37:16 -0400</pubDate>
+        <link>weeklyhack.github.io/PH/</link>
+        <guid isPermaLink="true">weeklyhack.github.io/PH/</guid>
+        
+        
+        <category>project</category>
+        
+        <category>ph</category>
+        
+      </item>
     
       <item>
         <title>ApiPush</title>
@@ -101,6 +162,8 @@ the README.&lt;/a&gt;&lt;/p&gt;
         <category>project</category>
         
         <category>apipush</category>
+        
+        <category>node</category>
         
       </item>
     

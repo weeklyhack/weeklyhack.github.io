@@ -1,8 +1,9 @@
 #!/bin/bash
 # A script to scaffold new weekly events.
-# Run like: ./new.sh "Name of App" "App Description"
+# Run like: ./new.sh "Name of App" "App Description" "1egoman/project"
 TITLE=$1
 DESC=$2
+GITHUB=$3
 DATE=`date +%Y-%m-%d`
 DATE_TIME=`date "+%Y-%m-%d %H:%M:%S"`
 TITLE_DASH=`echo $TITLE | sed 's/ /-/g'`
@@ -15,6 +16,7 @@ title:  "$TITLE"
 date:   $DATE_TIME
 description: "$DESC"
 categories: project $TITLE_DASH
+github: $GITHUB
 ---
 
 ## What did I make?
