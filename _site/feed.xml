@@ -6,9 +6,9 @@
 </description>
     <link>weeklyhack.github.io/</link>
     <atom:link href="weeklyhack.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 May 2016 14:15:35 -0400</pubDate>
-    <lastBuildDate>Fri, 27 May 2016 14:15:35 -0400</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Fri, 27 May 2016 16:55:24 -0400</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 16:55:24 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>PH, a tool for making git push more efficient</title>
@@ -27,7 +27,7 @@ post about them.&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;so-what-did-i-write&quot;&gt;So, what did I write?&lt;/h3&gt;
 
 &lt;p&gt;Every day, I push code with git at least 50 times. Usually, I run something
-like &lt;code&gt;git push origin master&lt;/code&gt;, a full 22 characters. There had to be a more
+like &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;, a full 22 characters. There had to be a more
 efficient way to push code. Am I lazy? Maybe. But, efficiency matters.
 I tried some fancy shell aliases, and while they
 were ok they never really worked quite right for my needs. I figured this
@@ -35,9 +35,9 @@ would be a perfect opportunity to write a solution.&lt;/p&gt;
 
 &lt;p&gt;Enter PH.&lt;/p&gt;
 
-&lt;p&gt;PH is an app that makes git push easier. Remember &lt;code&gt;git push origin master&lt;/code&gt;?
-Instead, do &lt;code&gt;ph om&lt;/code&gt;. A full 18 characters shorter. Need to do something a little
-more complex, like &lt;code&gt;git pull origin branch -v&lt;/code&gt;? Simple, just do &lt;code&gt;ph
+&lt;p&gt;PH is an app that makes git push easier. Remember &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin master&lt;/code&gt;?
+Instead, do &lt;code class=&quot;highlighter-rouge&quot;&gt;ph om&lt;/code&gt;. A full 18 characters shorter. Need to do something a little
+more complex, like &lt;code class=&quot;highlighter-rouge&quot;&gt;git pull origin branch -v&lt;/code&gt;? Simple, just do &lt;code class=&quot;highlighter-rouge&quot;&gt;ph
 lobv&lt;/code&gt;. Enough with my convoluted examples, here’s it in action:&lt;/p&gt;
 
 &lt;div style=&quot;overflow: hidden; width: 100%;&quot;&gt;
@@ -70,7 +70,7 @@ was intuitive.&lt;/p&gt;
         
         <category>project</category>
         
-        <category>ph</category>
+        <category>PH</category>
         
       </item>
     
@@ -78,7 +78,7 @@ was intuitive.&lt;/p&gt;
         <title>ApiPush, a service that lets you write public api&#39;s without code</title>
         <description>&lt;p&gt;ApiPush is a simple app that lets anyone easily publish an API without writing any
 code - think Heroku for public apis. Each api is represented by a json file,
-which makes publishing is a snap: &lt;code&gt;apipush path/to/config.json&lt;/code&gt;.&lt;/p&gt;
+which makes publishing is a snap: &lt;code class=&quot;highlighter-rouge&quot;&gt;apipush path/to/config.json&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;ApiPush supports all the stuff you probably need to wrap existing services in an
 api, including both HTTP and Websockets support, dynamic queries thanks to
@@ -88,12 +88,12 @@ handlebars templates and helpers, and more.&lt;/p&gt;
 
 &lt;h3 id=&quot;heres-a-short-example&quot;&gt;Here’s a short example.&lt;/h3&gt;
 &lt;p&gt;When we query the below api, it will return the title of
-&lt;code&gt;http://google.com&lt;/code&gt; which happens to always be “Google”. (Hey, it’s repeatable.)
+&lt;code class=&quot;highlighter-rouge&quot;&gt;http://google.com&lt;/code&gt; which happens to always be “Google”. (Hey, it’s repeatable.)
 I’ve added some comments to explain what’s going on in the JSON below.
 If you’re interested you can
 &lt;a href=&quot;http://apipush.apps.rgaus.net/google_title/api/v1&quot; target=&quot;_blank&quot;&gt;give it a try yourself here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;The title of Google is....&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&quot;versions&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Specify multiple major versions&lt;/span&gt;
     &lt;span class=&quot;s2&quot;&gt;&quot;v1&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -122,7 +122,7 @@ If you’re interested you can
       &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;how-did-you-make-it&quot;&gt;How did you make it?&lt;/h2&gt;
 &lt;p&gt;ApiPush is written in Node.js and Express, using MongoDB as a database. Check
@@ -134,11 +134,11 @@ I’m planning on, with future projects, getting that number higher though.&lt;/
 &lt;h2 id=&quot;how-can-i-give-it-a-try&quot;&gt;How can I give it a try?&lt;/h2&gt;
 &lt;p&gt;First, install the cli tool:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;npm install --global apipush&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;npm install --global apipush&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Then, create and push up an api:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;apipush init api.json
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;apipush init api.json
 &lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;# (make any edits)&lt;/span&gt;
 &lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;apipush api.json
 Welcome!
@@ -150,9 +150,9 @@ Password &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;user@example.com: &lt;
 
 ... Api sleepy-train-army been provisioned!
 ... Check out your new api at http://apipush.apps.rgaus.net/sleepy-train-army/api/v1
-... &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;and, get metadata information at http://apipush.apps.rgaus.net/sleepy-train-army/api/v1/_meta.json&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+... &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;and, get metadata information at http://apipush.apps.rgaus.net/sleepy-train-army/api/v1/_meta.json&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Try appending &lt;code&gt;?name=bob&lt;/code&gt; to the end of the api above to see dynamic queries in action.&lt;/p&gt;
+&lt;p&gt;Try appending &lt;code class=&quot;highlighter-rouge&quot;&gt;?name=bob&lt;/code&gt; to the end of the api above to see dynamic queries in action.&lt;/p&gt;
 
 &lt;p&gt;If you’d like to know more about all the possible options, I’ve &lt;a href=&quot;https://github.com/weeklyhack/0-apipush&quot;&gt;a lot more documentation in
 the README.&lt;/a&gt;&lt;/p&gt;
@@ -164,7 +164,7 @@ the README.&lt;/a&gt;&lt;/p&gt;
         
         <category>project</category>
         
-        <category>apipush</category>
+        <category>ApiPush</category>
         
         <category>node</category>
         
