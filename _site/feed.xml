@@ -6,8 +6,8 @@
 </description>
     <link>weeklyhack.github.io/</link>
     <atom:link href="weeklyhack.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 May 2016 18:03:28 -0400</pubDate>
-    <lastBuildDate>Thu, 26 May 2016 18:03:28 -0400</lastBuildDate>
+    <pubDate>Fri, 27 May 2016 13:54:39 -0400</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 13:54:39 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -21,7 +21,8 @@ is a compiled language–a rarity these days–intrigued me. I had never really
 used one extensively before for a project and this felt like the perfect excuse
 to try.&lt;/p&gt;
 
-&lt;p&gt;After a week, I can say that Go has its quirks.&lt;/p&gt;
+&lt;p&gt;After a week, I can say that Go has its quirks. &lt;a href=&quot;&quot;&gt;In fact, I wrote a whole blog
+post about them.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;so-what-did-i-write&quot;&gt;So, what did I write?&lt;/h3&gt;
 
@@ -39,7 +40,9 @@ Instead, do &lt;code&gt;ph om&lt;/code&gt;. A full 18 characters shorter. Need t
 more complex, like &lt;code&gt;git pull origin branch -v&lt;/code&gt;? Simple, just do &lt;code&gt;ph
 lobv&lt;/code&gt;. Enough with my convoluted examples, here’s it in action:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/ph.gif&quot; alt=&quot;PH in action&quot; /&gt;&lt;/p&gt;
+&lt;div style=&quot;overflow: hidden; widht: 100%;&quot;&gt;
+  &lt;img alt=&quot;PH in action&quot; src=&quot;/assets/images/posts/ph.gif&quot; style=&quot;min-width: 500px;&quot; /&gt;
+&lt;/div&gt;
 
 &lt;!--
 ### Still unconvinced?
@@ -72,7 +75,7 @@ was intuitive.&lt;/p&gt;
       </item>
     
       <item>
-        <title>ApiPush</title>
+        <title>ApiPush, a service that lets you write public api&#39;s without code</title>
         <description>&lt;p&gt;ApiPush is a simple app that lets anyone easily publish an API without writing any
 code - think Heroku for public apis. Each api is represented by a json file,
 which makes publishing is a snap: &lt;code&gt;apipush path/to/config.json&lt;/code&gt;.&lt;/p&gt;
