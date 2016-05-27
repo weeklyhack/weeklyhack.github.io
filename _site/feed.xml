@@ -6,8 +6,8 @@
 </description>
     <link>weeklyhack.github.io/</link>
     <atom:link href="weeklyhack.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 May 2016 13:54:39 -0400</pubDate>
-    <lastBuildDate>Fri, 27 May 2016 13:54:39 -0400</lastBuildDate>
+    <pubDate>Fri, 27 May 2016 14:14:29 -0400</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 14:14:29 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -40,7 +40,7 @@ Instead, do &lt;code&gt;ph om&lt;/code&gt;. A full 18 characters shorter. Need t
 more complex, like &lt;code&gt;git pull origin branch -v&lt;/code&gt;? Simple, just do &lt;code&gt;ph
 lobv&lt;/code&gt;. Enough with my convoluted examples, here’s it in action:&lt;/p&gt;
 
-&lt;div style=&quot;overflow: hidden; widht: 100%;&quot;&gt;
+&lt;div style=&quot;overflow: hidden; width: 100%;&quot;&gt;
   &lt;img alt=&quot;PH in action&quot; src=&quot;/assets/images/posts/ph.gif&quot; style=&quot;min-width: 500px;&quot; /&gt;
 &lt;/div&gt;
 
