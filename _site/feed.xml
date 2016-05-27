@@ -6,8 +6,8 @@
 </description>
     <link>weeklyhack.github.io/</link>
     <atom:link href="weeklyhack.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 May 2016 14:14:29 -0400</pubDate>
-    <lastBuildDate>Fri, 27 May 2016 14:14:29 -0400</lastBuildDate>
+    <pubDate>Fri, 27 May 2016 14:15:35 -0400</pubDate>
+    <lastBuildDate>Fri, 27 May 2016 14:15:35 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -54,7 +54,7 @@ report`. PH will tell you how you could have optimized all of your shell
 commands to minimize typing. --&gt;
 
 &lt;h2 id=&quot;how-can-you-use-it&quot;&gt;How can you use it?&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/weekyhack/1-ph/blob/master/README.md&quot;&gt;Installation instructions are in the README.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/weeklyhack/1-ph/blob/master/README.md&quot;&gt;Installation instructions are in the README.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;how-did-i-do&quot;&gt;How did I do?&lt;/h3&gt;
 &lt;p&gt;I was able to gain nearly 80% test coverage, but the only thing keeping me from
